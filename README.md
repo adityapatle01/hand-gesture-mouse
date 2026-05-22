@@ -89,3 +89,12 @@ python main.py --control-margin-x 140 --control-margin-y 105
 - `pyautogui.size()` returns macOS logical display coordinates, which works correctly with Retina scaling for cursor movement.
 - `pyautogui.FAILSAFE` is enabled by default. Move the cursor to a screen corner to stop PyAutoGUI actions if something goes wrong.
 # hand-gesture-mouse
+
+# Navigate to the project folder
+cd "/path/to/your/hand-gesture-project"
+
+# Activate virtual environment
+source .venv310/bin/activate
+
+# Run the application
+python main.py
